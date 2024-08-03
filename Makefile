@@ -32,7 +32,7 @@ VPATH = $(shell find $(SOURCE_DIR) -type d -printf "$(SOURCE_DIR_NAME)/%P:")
 CC := /usr/bin/gcc
 LD := /usr/bin/ld
 DEFINES := 
-CFLAGS := -O0 -I$(HEADER_DIR)
+CFLAGS := -g -O0 -I$(HEADER_DIR)
 LDFLAGS := 
 
 # Helpers
