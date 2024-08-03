@@ -7,7 +7,7 @@
             "request": "launch",
             "program": "${workspaceRoot}/vicnc",
             "cwd": "${workspaceFolder}",
-            "args": [],
+            "args": [ "b allg" ],
             "stopAtEntry": false,
             "environment": [],
             "externalConsole": false,
